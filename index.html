@@ -106,9 +106,9 @@
     <main>
         <!-- course section start  -->
         <section class="container">
-           <div class="text-center">
-             <h3>Discover Our Popular Courses</h3>
-             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+           <div class="text-center mb-5">
+             <h1 class="fw-bold">Discover Our Popular <br> Courses</h1>
+             <p class="text-black-50">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
            </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
@@ -121,7 +121,7 @@
                                <div class="col-lg-8 col-md-8 col-12">
                                    <h3>Fundamental Of UI/UX Design</h3>
                                    <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                   <h3 class="text-primary">Price : $120</h3>
+                                   <h6 class="text-primary fw-bold">Price : $120</h6>
                                </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                                <div class="col-lg-8 col-md-8 col-12">
                                    <h3>Fullstack Web Development</h3>
                                    <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                   <h3 class="text-primary">Price : $120</h3>
+                                   <h6 class="text-primary fw-bold">Price : $120</h6>
                                </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                                <div class="col-lg-8 col-md-8 col-12">
                                    <h3>Photography Basic Rules</h3>
                                    <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                   <h3 class="text-primary">Price : $120</h3>
+                                   <h6 class="text-primary fw-bold">Price : $120</h6>
                                </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                                <div class="col-lg-8 col-md-8 col-12">
                                    <h3>Javascript Basic to advanced</h3>
                                    <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                   <h3 class="text-primary">Price : $120</h3>
+                                   <h6 class="text-primary fw-bold">Price : $120</h6>
                                </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                                <div class="col-lg-8 col-md-8 col-12">
                                    <h3>Digital Marketing</h3>
                                    <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                                   <h3 class="text-primary">Price : $120</h3>
+                                   <h6 class="text-primary fw-bold">Price : $120</h6>
                                </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                            <div class="col-lg-8 col-md-8 col-12">
                                <h3>Motion Graphics</h3>
                                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                               <h3 class="text-primary">Price : $120</h3>
+                               <h6 class="text-primary fw-bold">Price : $120</h6>
                            </div>
                        </div>
                     </div>
@@ -217,38 +217,82 @@
         </section>
         <!-- Explore section end -->
         <!-- Ready to join section start  -->
-        <section class="container ps-0 pe-0">
-          <div class="d-flex justify-content-between bg-primary align-items-center p-5 mb-5 rounded" style="height: 200px;">
-              <div>
-                    <h2>Ready to join?</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
-                </div>
-                <div>
-                    <button class="btn btn-light text-primary fw-bold" data-toggle="modal" data-target="#myModal">Register Now</button>  
-                </div>
-          </div>
+        <section class="container ps-0 pe-0 mb-5">
+            <div style="height: 200px;">
+                  <div class="d-flex justify-content-between align-items-center w-100 p-5 rounded bg-primary ">
+                    <div> 
+                      <h1 class="text-light fw-bold">Ready to join?</h1>
+                      <p class="text-light">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout</p>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <div>
+                      <button type="button" class="btn btn-light text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                      </button>
+  
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-primary fw-bold" id="exampleModalLabel ">Register Here</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label" >Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+            </div>     
         </section>
         <!-- Ready to join section end  -->
         <!-- modal section start  -->
-        <!-- <section>
-            <div class="modal" tabindex="-1" id="modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Please Write here</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
+        <section>
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button> -->
+
+          <!-- Modal -->
+          <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
               </div>
-        </section> -->
+            </div>
+          </div> -->
+        </section>
         <!-- modal section end  -->
     </main>
     <!-- main section end  -->
