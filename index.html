@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udemy</title>
+    <!-- Custom css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awsome icon link  -->
+    <script src="https://kit.fontawesome.com/dd380383b2.js" crossorigin="anonymous"></script>
     <!-- favicon link  -->
-    <link rel="shortcut icon" href="images/company/udemy.png" type="image/x-icon">k
+    <link rel="shortcut icon" href="images/company/udemy.png" type="image/x-icon">
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
@@ -14,8 +18,8 @@
     <header>
         <!-- nav section start -->
         <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid  d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg fixed-top container bg-light">
+                <div class="container-fluid ">
                     <div>
                         <a class="navbar-brand" href="#">
                         <img src="images/company/company-2.png" alt="">
@@ -25,21 +29,21 @@
                   </button>
                     </div>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ms-auto">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Courses</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Deals</a>
+                        <a class="nav-link" href="#">Deals</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">Success</a>
+                        <a class="nav-link" href="#">Success</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link">About</a>
+                        <a class="nav-link" href="#">About</a>
                       </li>
                     </ul>
                   </div>
@@ -50,6 +54,8 @@
               </nav>
         </section>
         <!-- nav section end -->
+
+
         <!-- carosel section start  -->
         <section class="container mt-5 mb-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -61,30 +67,30 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="img-fluid" style="filter: brightness(60%);" src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light">
-                      <h1 class="fw-bold">Get Started Digital <br> Learning</h1>
-                      <p class="mt-5 mb-5">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
-                      <button class="btn btn-primary fw-bold mb-5">
+                    <div class="carousel-caption text-light">
+                      <h3 class="fw-bold">Get Started Digital <br> Learning</h3>
+                      <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+                      <button class="btn btn-primary fw-bold">
                         Get Started
                       </button>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img class="img-fluid" style="filter: brightness(60%);" src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light">
-                        <h1 class="fw-bold">Transform your life through <br> Education</h1>
-                        <p class="mt-5 mb-4">Learners around the world are launching new careers, <br> advancing in their fields, and enriching their lives.</p>
-                        <button class="btn btn-primary fw-bold mb-5">
+                    <div class="carousel-caption text-light">
+                        <h3 class="fw-bold">Transform your life through <br> Education</h3>
+                        <p>Learners around the world are launching new careers, <br> advancing in their fields, and enriching their lives.</p>
+                        <button class="btn btn-primary fw-bold">
                           Get Started
                         </button>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <img class="img-fluid" style="filter: brightness(60%);" src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-light">
-                        <h1 class="fw-bold">Build websites and applications with Web Development</h1>
-                        <p class="mt-5 mb-5">The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.</p>
-                        <button class="btn btn-primary fw-bold mb-5">
+                    <div class="carousel-caption text-light">
+                        <h3 class="fw-bold">Build websites and applications with Web Development</h3>
+                        <p>The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet.</p>
+                        <button class="btn btn-primary fw-bold">
                           Get Started
                         </button>
                     </div>
@@ -101,7 +107,10 @@
               </div>
         </section>
         <!-- carosel section end  -->
+
     </header>
+
+
     <!-- main section start  -->
     <main>
         <!-- course section start  -->
@@ -111,9 +120,9 @@
              <p class="text-black-50">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
            </div>
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6">
                    <!-- single course  -->
-                   <div class="row border rounded m-2  ">
+                   <div class="rowborder rounded m-2  ">
                         <div class="d-flex align-items-center ps-0 pe-0">
                             <div class="col-lg-4 col-md-4 col-12 me-2">
                                 <img class="img-fluid" src="images/course/course-1.png" alt="">
@@ -199,6 +208,8 @@
             </div>
         </section>
         <!-- course section end  -->
+
+
         <!-- Explore section start  -->
         <section class="container mb-5">
             <div class="row  bg-info d-flex align-items-center ">
@@ -216,6 +227,8 @@
             </div>
         </section>
         <!-- Explore section end -->
+
+
         <!-- Ready to join section start  -->
         <section class="container ps-0 pe-0 mb-5">
             <div class="h-auto">
@@ -267,6 +280,8 @@
             </div>     
         </section>
         <!-- Ready to join section end  -->
+
+
         <!-- Succesfull student's section start  -->
         <section class="container">
           <div class="mt-5 mb-5 lh-lg">
@@ -316,6 +331,7 @@
           </div>
         </section>
         <!-- Succesfull student's section end  -->
+
 
         <!-- FAQ section start  -->
         <section class="container mb-5 col-7 p-5">
@@ -368,11 +384,12 @@
         </section>
         <!-- FAQ section end  -->
 
+
         <!-- Company section start  -->
         <section class="container mb-5 mamun">
           <div class="container-fluid">
             <div>
-              <h2 class="text-center">Trusted by over 800+ companies</h2>
+              <h2 class="text-center mb-5 fw-bold">Trusted by over 800+ companies</h2>
             </div>
             <div class="row row-cols-6 justify-content-center align-items-center">
               <div class="img-fluid">
@@ -397,8 +414,50 @@
           </div>
         </section>
         <!-- Company section end  -->
+
+
     </main>
     <!-- main section end  -->
+
+
+    <!-- footer start  -->
+    <footer class="bg-dark" style="height: 200px;">
+      <div class="d-flex flex-column justify-content-center align-items-center mt-5 ">
+        <h2>
+          <a href="index.html" class="text-decoration-none text-white">Udemy</a>
+        </h2>
+        <small class="text-white-50">
+          Ankara, Turkey
+        </small>
+        <div>
+          <small>
+            <a href="https://www.udemy.com/terms/privacy/" target="_blank" class="text-white text-decoration-none">privacy</a>
+          </small>
+          <small class="text-white">|</small>
+          <small>
+            <a href="https://www.udemy.com/terms/" target="_blank" class="text-white text-decoration-none">policy</a>
+          </small>
+        </div>
+        <div class="d-flex g-4">
+          <div>
+            <a href="https://www.facebook.com/JhankarMahbub" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+         <div>
+          <a href="https://github.com/programmingHero1" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+         </div>
+          <div>
+            <a href="https://www.linkedin.com/in/jhankar/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
 
 <!-- bootstrap script link  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
